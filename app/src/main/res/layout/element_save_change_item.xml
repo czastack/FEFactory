@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/dialog_root">
+
+	<TextView
+		style="@style/fill"
+		android:id="@+id/titleView"
+		android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+	<LinearLayout
+		style="@style/bar">
+
+		<TextView
+			style="@style/input_text"
+			android:id="@+id/addrView"
+			android:layout_width="100dp"/>
+
+		<TextView
+			style="@style/wrap"
+			android:text="--&gt;"
+			android:layout_marginRight="5dp"/>
+
+		<TextView
+			style="@style/input_edit"
+			android:id="@+id/valueView"
+			android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

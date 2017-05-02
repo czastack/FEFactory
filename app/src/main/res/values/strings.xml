@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">我的火纹</string>
+	
+	<!--Activity-->
+	<string name="createShortcut">创建快捷方式</string>
+	<string name="shortcut">快捷方式</string>
+	<string name="openRom">打开rom</string>
+	<string name="runGame">运行游戏</string>
+	<string name="tool">工具</string>
+	<string name="fileNotFound">文件不存在</string>
+	<string name="fileNotFoundBelow">无法找到\n%s</string>
+	<string name="error">我读的书少，你不要骗我</string>
+	<string name="textTable">文本列表</string>
+	<!--后台-->
+	<string name="running">创建快捷方式</string>
+	
+	<!--启动器-->
+	<string name="launcher">启动器</string>
+	<string name="mainActivity">主界面</string>
+	<string name="calculator">计算器</string>
+	<string name="filebrowser">文件浏览</string>
+	<string name="textImport">文本导入</string>
+	<string name="setting">设置</string>
+
+	<!--计算器-->
+	<string name="hex">16进制</string>
+	<string name="dec">10进制</string>
+	
+	<!--文件-->
+	<string name="copy">复制</string>
+	<string name="move">移动</string>
+	<string name="paste">粘贴</string>
+	<string name="clear">清空</string>
+	<string name="delete">删除</string>
+	<string name="rename">重命名</string>
+	<string name="copyDir">复制路径</string>
+	<string name="edit">编辑</string>
+	<string name="share">分享</string>
+	<string name="createFile">新文件</string>
+	<string name="openDir">打开文件夹</string>
+	<string name="openPath">打开文件位置</string>
+	<string name="fileName">文件名</string>
+	<string name="copySucceed">已复制到剪切板</string>
+	<string name="chooseTypeFile">选择%s文件</string>
+	<string name="emptyFilename">请输入文件名</string>
+	<string name="fileExists">文件已存在</string>
+	<string name="saveSucceed">保存成功\n%s</string>
+	
+	<string name="ok">确定</string>
+	<string name="cancel">取消</string>
+	<string name="find">查找</string>
+	<string name="replace">替换</string>
+	<string name="close">关闭</string>
+	<string name="select">选取</string>
+	
+	<!--多选-->
+    <string name="checkAll">全选</string>
+	<string name="checkInverse">反选</string>
+    <string name="checkNo">全不选</string>
+	<string name="quite">退出</string>
+	<string name="checked">开启 %1$d/%2$d</string>
+	<string name="selected">选中 %1$d/%2$d</string>
+
+	<!--rom-->
+	<string name="browser">浏览</string>
+	<string name="dictionary">码表</string>
+	<string name="rom">Rom</string>
+	<string name="loadRomFailed">加载Rom失败，请选择火焰之纹章的gba rom</string>
+	<string name="loadRomFirst">请先打开rom</string>
+	<string name="search">搜索</string>
+	<string name="saveRom">保存Rom</string>
+	<string name="saveAsRom">另存为Rom</string>
+	<string name="textConver">文字转换</string>
+	<string name="textExport">文本导出</string>
+	<string name="text">文字</string>
+	<string name="hexCode">码表编码</string>
+	<string name="huffmanCode">霍夫曼编码</string>
+	<string name="clearChange">清空修改</string>
+	<string name="clearChangeMsg">您确认要清空载入Rom后至现在的所有修改么？\n此操作会重新读取当前页面的数据</string>
+	<string name="saveChange">保存修改</string>
+	<string name="saveChangeMsg">以下项目已更改，是否记录这些修改？\n您需要在菜单中选择保存或另存Rom才能将修改的内容保存到文件。</string>
+	<string name="changeLog">修改记录</string>
+	<string name="noSavedLog">还没有已保存的修改(｡･ω･)</string>
+	<string name="lookUpLog">查看修改记录</string>
+	<string name="confirmQuite">确认要退出码？</string>
+
+	<!--组件-->
+	<string name="addr">地址</string>
+	<string name="preview">预览</string>
+	<string name="name">名称</string>
+	<string name="detail">介绍</string>
+	<string name="index">序号</string>
+	<string name="pointer">指针</string>
+	<string name="pointerAddr">指针地址</string>
+	<string name="bytes">字节</string>
+	<string name="defaultValue">默认值</string>
+	<string name="back">返回</string>
+	
+	<!--文本列表-->
+	<string name="outputText">导出文本</string>
+
+	<!--文本导入-->
+	<string name="write">写入</string>
+	<string name="capacityFailed">扩容失败</string>
+	<string name="useHuffman">使用霍夫曼编码</string>
+	<string name="loadDataFile">加载数据失败：第%d行</string>
+</resources>
+

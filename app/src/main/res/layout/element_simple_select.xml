@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/input"
+	android:padding="5dp">
+
+	<TextView
+		style="@style/input_text_4em"
+		android:id="@+id/textView"/>
+
+	<Spinner
+		style="@style/fill"
+		android:id="@+id/selectView"/>
+
+</LinearLayout>
+

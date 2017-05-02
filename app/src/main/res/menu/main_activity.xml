@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item 
+		android:id="@+id/menu_openRom" 
+		android:title="@string/openRom"
+        android:showAsAction="ifRoom"
+		android:icon="@drawable/ic_menu_archive" />
+	
+	<item
+		android:id="@+id/menu_runGame"
+		android:title="@string/runGame"
+        android:showAsAction="ifRoom"
+		android:icon="@android:drawable/ic_media_play"/>
+
+    <item
+        android:id="@+id/menu_save"
+        android:title="@string/saveRom"/>
+
+    <item
+        android:id="@+id/menu_saveAs"
+        android:title="@string/saveAsRom"/>
+
+    <item
+        android:id="@+id/menu_clearChange"
+        android:title="@string/clearChange"/>
+
+    <item
+        android:id="@+id/menu_lookUpLog"
+        android:title="@string/lookUpLog"/>
+
+    <item
+        android:id="@+id/menu_textConver"
+        android:title="@string/textConver"/>
+
+    <item
+        android:id="@+id/menu_textTable"
+        android:title="@string/textTable"/>
+</menu>

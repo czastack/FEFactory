@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/dialog_root">
+
+	<LinearLayout
+		style="@style/bar">
+
+		<TextView
+			style="@style/line_item"
+			android:text="@string/text"
+			android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:layout_width="120dp"
+			android:hint="长度"
+			android:inputType="number"
+			android:id="@+id/textLengthView"/>
+
+		<Button
+			style="@style/wrap"
+			android:text="GO"
+			android:id="@+id/btn_fromText"/>
+
+	</LinearLayout>
+
+	<EditText
+		style="@style/fill"
+		android:id="@+id/inputTextView"
+		android:gravity="top"
+		android:layout_height="90dp"/>
+
+	<LinearLayout
+		style="@style/bar">
+
+		<TextView
+			style="@style/line_item"
+			android:text="@string/hexCode"
+			android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+		<CheckBox
+			android:text="添加空格"
+			android:layout_width="120dp"
+			android:layout_height="match_parent"
+			android:id="@+id/spaceView"/>
+
+		<Button
+			style="@style/wrap"
+			android:text="GO"
+			android:id="@+id/btn_fromCode"/>
+
+	</LinearLayout>
+
+	<EditText
+		style="@style/fill"
+		android:id="@+id/inputCodeView"
+		android:gravity="top"
+		android:layout_height="90dp"/>
+
+	<LinearLayout
+		style="@style/bar">
+
+		<TextView
+			style="@style/line_item"
+			android:text="@string/huffmanCode"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:paddingTop="5dp"/>
+
+	</LinearLayout>
+
+	<EditText
+		style="@style/read_only_edit"
+		android:id="@+id/huffmanView"
+		android:lines="2"
+		android:layout_weight="0"
+		android:layout_height="90dp"
+		android:singleLine="false"
+		android:gravity="top"/>
+
+</LinearLayout>
+

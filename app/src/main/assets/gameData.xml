@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<map>
+	<item title="FIREEMBLEM6" name="封印之剑" dir="FE6/" pointerEnd="080F9790" />
+	<item title="FIREEMBLEM7" name="烈火之剑" dir="FE7/" pointerEnd="08BBFC40" />
+	<item title="FIREEMBLEM8" name="圣魔之光石" dir="FE8/" pointerEnd="081504B4" />
+</map>

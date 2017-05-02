@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="white">#FFFFFF</color>
+	<color name="pressed">?attr/pressed</color>
+	<color name="pressed_day">#7DCDE9</color>
+	<color name="pressed_night">#2F7D99</color>
+	<color name="window_bg">#ECF0F1</color>
+	<color name="highlight">#0099CC</color>
+	<color name="silver">#E0E0E0</color>
+	<color name="frame">#D0D0D0</color>
+	<color name="grayer">#666666</color>
+	<color name="read_only_text">#666666</color>
+</resources>

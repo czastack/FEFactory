@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/verticalBar">
+
+	<LinearLayout
+		style="@style/input">
+
+		<TextView
+			style="@style/input_text_4em"
+			android:id="@+id/textTitleView"/>
+
+		<EditText
+			style="@style/input_edit"
+			android:id="@+id/textIndexView"/>
+
+	</LinearLayout>
+
+	<include
+		layout="@layout/element_text_item_preview"
+		style="@style/input"/>
+
+	<LinearLayout
+		style="@style/input">
+
+		<TextView
+			style="@style/input_text_4em"
+			android:text="@string/pointerAddr"
+			android:textColor="@color/read_only_text"/>
+
+		<EditText
+			style="@style/read_only_edit"
+			android:id="@+id/textPointerAddrView"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		style="@style/input">
+
+		<TextView
+			style="@style/input_text_4em"
+			android:text="@string/pointer"
+			android:textColor="@color/read_only_text"/>
+
+		<cza.element.BytesEditText
+			style="@style/input_edit"
+			android:id="@+id/textPointerView"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

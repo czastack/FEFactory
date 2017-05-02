@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<Elements count="3">
+	<SelectParent title="人物修改" childrenList="person/children.xml" />
+	<SelectParent title="道具修改" childrenList="item/children.xml"/>
+	<SelectParent title="职业修改" childrenList="proficiency/children.xml" />
+</Elements>

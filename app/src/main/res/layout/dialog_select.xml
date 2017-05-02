@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/fill">
+	
+	<cza.widget.BtnBar
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="horizontal"
+		style="?android:attr/buttonBarStyle"
+		android:id="@+id/btnBar">
+
+		<SearchView
+			style="@style/MySearchView"
+			android:id="@+id/searchView"/>
+
+		<LinearLayout
+			style="@style/wrap"
+			android:orientation="horizontal"
+			android:id="@+id/mulChkBar">
+
+			<TextView
+				style="@style/state"
+				android:id="@+id/mulChkState"
+				android:padding="5px"/>
+
+			<TextView
+				style="?android:attr/buttonBarButtonStyle"
+				android:id="@+id/btn_clear"
+				android:text="@string/clear"/>
+
+		</LinearLayout>
+
+	</cza.widget.BtnBar>
+
+</HorizontalScrollView>
+

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<Children count="">
+	<!--章节数据-->
+	<SimpleSelect title="视野" offset="12" size="1" entries="视野.txt" />
+	<SimpleSelect title="天气" offset="18" size="1" entries="天气.txt" />
+	<SimpleSelect title="我方BGM" offset="22" size="2" entries="BGM.txt" />
+	<SimpleSelect title="敌方BGM" offset="24" size="2" entries="BGM.txt" />
+	<SimpleSelect title="NPCBGM" offset="26" size="2" entries="BGM.txt" />
+	<SimpleSelect title="我方BGM2" offset="28" size="2" entries="BGM.txt" />
+	<SimpleSelect title="敌方BGM2" offset="30" size="2" entries="BGM.txt" />
+	<SimpleSelect title="NPCBGM" offset="32" size="2" entries="BGM.txt" />
+	<InputItem title="墙壁HP" offset="44" size="1" />
+	<InputItem title="剩多少敌人切换BGM" offset="134" size="1" />
+	<InputItem title="胜利条件" offset="138" size="2" />
+	<SimpleSelect title="胜利条件" offset="140" size="1" entries="过关条件.txt" />
+	<InputItem title="坚持回合数+1" offset="141" size="1" />
+	<SimpleSelect title="保护对象" offset="142" size="1" entries="角色列表.txt" />
+</Children>

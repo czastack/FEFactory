@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/menu_search"
+        android:title="@string/search"/>
+	
+    <item
+        android:id="@+id/menu_textConver"
+        android:title="@string/textConver"/>
+
+    <item
+        android:id="@+id/menu_textExport"
+        android:title="@string/textExport"/>
+    
+</menu>

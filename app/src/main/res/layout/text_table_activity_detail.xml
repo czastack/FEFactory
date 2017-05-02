@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/full"
+	android:fillViewport="true">
+
+	<LinearLayout
+		style="@style/dialog_root">
+
+		<LinearLayout
+			style="@style/input">
+
+			<TextView
+				style="@style/input_text_4em"
+				android:text="@string/index"/>
+
+			<EditText
+				style="@style/read_only_edit"
+				android:id="@+id/indexView"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			style="@style/input">
+
+			<TextView
+				style="@style/input_text_4em"
+				android:text="@string/pointerAddr"/>
+
+			<EditText
+				style="@style/read_only_edit"
+				android:id="@+id/pointerAddrView"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			style="@style/input">
+
+			<TextView
+				style="@style/input_text_4em"
+				android:text="@string/pointer"/>
+
+			<EditText
+				style="@style/read_only_edit"
+				android:id="@+id/pointerView"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			style="@style/verticalBar"
+			android:orientation="vertical"
+			android:layout_margin="5dp">
+
+			<TextView
+				style="@style/fill"
+				android:text="@string/hexCode"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<EditText
+				style="@style/fill"
+				android:id="@+id/inputCodeView"/>
+
+			<TextView
+				style="@style/fill"
+				android:text="@string/text"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<EditText
+				style="@style/fill"
+				android:id="@+id/inputTextView"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</ScrollView>
+

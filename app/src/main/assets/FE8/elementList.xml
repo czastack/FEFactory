@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<Elements count="17">
+	<SelectParent title="人物修改" childrenList="person/children.xml" />
+	<SelectParent title="道具修改" childrenList="item/children.xml"/>
+	<SelectParent title="职业修改" childrenList="proficiency/children.xml" />
+	<GroupParent title="程序杂项修改" childrenList="sundry/children.xml" />
+	<SelectParent title="地图静态形象修改" childrenList="proficiencyMapImage/staticImage.xml" />
+	<SelectParent title="地图动态形象修改" childrenList="proficiencyMapImage/dynamicImage.xml" />
+	<SelectParent title="地图修改" childrenList="map/children.xml" />
+	<GroupParent title="斗技场修改" childrenList="other/arena.xml" />
+	<SelectParent title="人物配色-职业部分" childrenList="color/personColor-proficiency.xml" />
+	<SelectParent title="人物配色-颜色部分" childrenList="color/personColor-color.xml" />
+	<GroupParent title="特技修改" childrenList="other/stunt.xml" />
+	<SelectParent title="武器动画修改" childrenList="other/itemAnimation.xml" />
+	<SelectParent title="章节数据修改" childrenList="chapterData/children.xml" />
+	<SelectParent title="章节配置修改" childrenList="chapterConfiguration/children.xml" />
+	<SelectParent title="支援属性加成修改" childrenList="other/support.xml" />
+	<SelectParent title="转职修改" childrenList="other/zhuanzhi.xml" />
+	<SelectParent title="Boss战BGM" childrenList="other/bossBgm.xml" />
+</Elements>

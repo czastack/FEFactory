@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item 
+		android:id="@+id/menu_mainActivity" 
+		android:title="@string/mainActivity" />
+	
+	<item 
+		android:id="@+id/menu_calculator" 
+		android:title="@string/calculator" />
+	
+	<item 
+		android:id="@+id/menu_filebrowser" 
+		android:title="@string/filebrowser" />
+
+	<item 
+		android:id="@+id/menu_textImport" 
+		android:title="@string/textImport" />
+
+	<item 
+		android:id="@+id/menu_setting" 
+		android:title="@string/setting" />
+</menu>

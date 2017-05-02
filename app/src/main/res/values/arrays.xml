@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="menu_file">
+		<item>@string/rename</item>
+		<item>@string/move</item>
+		<item>@string/copy</item>
+		<item>@string/copyDir</item>
+		<item>@string/share</item>
+		<item>@string/delete</item>
+	</string-array>
+		
+</resources>
